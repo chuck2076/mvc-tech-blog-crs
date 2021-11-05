@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Project, User } = require('../models');
+const { Project, User, Comments } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
@@ -34,11 +34,14 @@ router.get('/project/:id', async (req, res) => {
         {
           model: User,
           attributes: ['name'],
+          
         },
+         {model: Comments, attributes:['text']}
       ],
     });
 
     const project = projectData.get({ plain: true });
+    console.log(project)
 
     res.render('project', {
       ...project,
