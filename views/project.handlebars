@@ -7,6 +7,7 @@
 
 {{#each comments as |comment|}}
 <p>{{text}}</p>
+<p>Created by {{user.name}} on {{format_date date_created}}</p>
 {{/each}}
 <form id = "comment-post">
   <div class='form-group'>
