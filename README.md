@@ -4,6 +4,9 @@
 
  A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. Follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
+## Tech Blog Images
+![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./assets/techblog.gif) 
+
 ## User Story
 
 ```md
@@ -16,15 +19,11 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ## Table of Contents:
 
-- [Installation](https://github.com/chuck2076/e-commerce-back-end-crs#installation)
 - [Usage](https://github.com/chuck2076/e-commerce-back-end-crs#usage)
 - [Deployed URL](https://github.com/chuck2076/e-commerce-back-end-crs#video)
 - [Tech Stack](https://github.com/chuck2076/e-commerce-back-end-crs#tech-stack)
 - [Contributors](https://github.com/chuck2076/e-commerce-back-end-crs#contributors)
 - [Questions](https://github.com/chuck2076/e-commerce-back-end-crs#questions)
-
-## Installation:
- > The user should clone the repository and open in preferred coding terminal. User will also need to install the NPM packages located in the Tech Stack for it to properly run.
 
 ## Usage
 
@@ -65,67 +64,30 @@ THEN they are able to view comments but are prompted to log in again before they
 
 ## Deployed URL
 
-The following animation demonstrates the application functionality:
+Here's a link to the deployed URL on Heroku:
 
-![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./Assets/14-mvc-homework-demo-01.gif) 
+ > [[Heroku Link](https://mvc-tech-blog-crs.herokuapp.com/)]
 
 ## Tech Stack
 
-Your application’s folder structure must follow the Model-View-Controller paradigm. You’ll need to use the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for your Views, use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect to a MySQL database for your Models, and create an Express.js API for your Controllers.
+## Tech Stack:
 
-You’ll also need the [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables, the [bcrypt package](https://www.npmjs.com/package/bcrypt) to hash passwords, and the [express-session](https://www.npmjs.com/package/express-session) and [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) packages to add authentication.
+ > * Node.js 
+ > * Sequelize NPM
+ > * Dotenv NPM   
+ > * Bcrypt NPM  
+ > * Handlebars NPM  
+ > * Express.js
+ > * JavaScript
+ > * MySQL2
 
-**Note**: The [express-session](https://www.npmjs.com/package/express-session) package stores the session data on the client in a cookie. When you are idle on the site for more than a set time, the cookie will expire and you will be required to log in again to start a new session. This is the default behavior and you do not have to do anything to your application other than implement the npm package.
+## Contributors:
+ > [https://github.com/chuck2076](https://github.com/chuck2076)
 
-## Contributors
+## Questions:
+ Chuck Stephens 
+ [https://github.com/chuck2076](https://github.com/chuck2076) 
 
-This homework is graded based on the following criteria:
-
-### Questions
-
-* Satisfies all of the preceding acceptance criteria plus the following:
-
-    * Application’s folder structure follows the Model-View-Controller paradigm.
-
-    * Uses the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for your Views.
-
-    * Application must be deployed to Heroku.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* User experience is intuitive and easy to navigate.
-
-* User interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
+Feel free to get in touch! 
+ [chuckstephens2076@gmail.com](mailto:chuckstephens2076@gmail.com)
 

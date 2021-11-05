@@ -1,9 +1,9 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
-
+// Create variables for to write into HTML
   const title = document.querySelector('#project-title').value.trim();
   const text= document.querySelector('#project-text').value.trim();
-
+// Function to get info for blog post
   if (title && text) {
     const response = await fetch(`/api/projects`, {
       method: 'POST',
@@ -20,7 +20,7 @@ const newFormHandler = async (event) => {
     }
   }
 };
-
+// Handler to get post by ID and deleting
 const delButtonHandler = async (event) => {
   if (event.target.hasAttribute('data-id')) {
     const id = event.target.getAttribute('data-id');
@@ -36,7 +36,7 @@ const delButtonHandler = async (event) => {
     }
   }
 };
-
+// Event listeners for posting and deleting
 document
   .querySelector('.new-project-form')
   .addEventListener('submit', newFormHandler);
