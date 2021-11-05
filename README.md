@@ -19,11 +19,11 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ## Table of Contents:
 
-- [Usage](https://github.com/chuck2076/e-commerce-back-end-crs#usage)
-- [Deployed URL](https://github.com/chuck2076/e-commerce-back-end-crs#video)
-- [Tech Stack](https://github.com/chuck2076/e-commerce-back-end-crs#tech-stack)
-- [Contributors](https://github.com/chuck2076/e-commerce-back-end-crs#contributors)
-- [Questions](https://github.com/chuck2076/e-commerce-back-end-crs#questions)
+- [Usage](https://github.com/chuck2076/mvc-tech-blog-crs#usage)
+- [Deployed URL](https://github.com/chuck2076/mvc-tech-blog-crs#deployed-url)
+- [Tech Stack](https://github.com/chuck2076/mvc-tech-blog-crs#tech-stack)
+- [Contributors](https://github.com/chuck2076/mvc-tech-blog-crs#contributors)
+- [Questions](https://github.com/chuck2076/mvc-tech-blog-crss#questions)
 
 ## Usage
 
