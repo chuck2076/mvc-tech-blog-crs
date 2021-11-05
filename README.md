@@ -68,8 +68,6 @@ Here's a link to the deployed URL on Heroku:
 
  > [[Heroku Link](https://mvc-tech-blog-crs.herokuapp.com/)]
 
-## Tech Stack
-
 ## Tech Stack:
 
  > * Node.js 
